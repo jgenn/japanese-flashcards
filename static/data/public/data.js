@@ -1,0 +1,277 @@
+var data = [{
+  "id": 1,
+  "japanese": "ん",
+  "english": "n ",
+  "romaji": "n",
+  "category": "Basics"
+}, {
+  "id": 2,
+  "japanese": "わ",
+  "english": "wa",
+  "romaji": "wa",
+  "category": "Basics"
+}, {
+  "id": 3,
+  "japanese": "ら",
+  "english": "ra",
+  "romaji": "ra",
+  "category": "Basics"
+}, {
+  "id": 4,
+  "japanese": "や",
+  "english": "ya",
+  "romaji": "ya",
+  "category": "Basics"
+}, {
+  "id": 5,
+  "japanese": "ま",
+  "english": "ma",
+  "romaji": "ma",
+  "category": "Basics"
+}, {
+  "id": 6,
+  "japanese": "は",
+  "english": "ha or wa",
+  "romaji": "ha or wa",
+  "category": "Basics"
+}, {
+  "id": 7,
+  "japanese": "な",
+  "english": "na",
+  "romaji": "na",
+  "category": "Basics"
+}, {
+  "id": 8,
+  "japanese": "た",
+  "english": "ta",
+  "romaji": "ta",
+  "category": "Basics"
+}, {
+  "id": 9,
+  "japanese": "さ",
+  "english": "sa",
+  "romaji": "sa",
+  "category": "Basics"
+}, {
+  "id": 10,
+  "japanese": "か",
+  "english": "ka ",
+  "romaji": "ka",
+  "category": "Basics"
+}, {
+  "id": 11,
+  "japanese": "あ",
+  "english": "a",
+  "romaji": "a",
+  "category": "Basics"
+}, {
+  "id": 12,
+  "japanese": "り",
+  "english": "ri",
+  "romaji": "ri",
+  "category": "Basics"
+}, {
+  "id": 13,
+  "japanese": "み",
+  "english": "mi",
+  "romaji": "mi",
+  "category": "Basics"
+}, {
+  "id": 14,
+  "japanese": "ひ",
+  "english": "hi",
+  "romaji": "hi",
+  "category": "Basics"
+}, {
+  "id": 15,
+  "japanese": "に",
+  "english": "ni",
+  "romaji": "ni",
+  "category": "Basics"
+}, {
+  "id": 16,
+  "japanese": "ち",
+  "english": "chi",
+  "romaji": "chi",
+  "category": "Basics"
+}, {
+  "id": 17,
+  "japanese": "し",
+  "english": "shi",
+  "romaji": "shi",
+  "category": "Basics"
+}, {
+  "id": 18,
+  "japanese": "き",
+  "english": "ki",
+  "romaji": "ki",
+  "category": "Basics"
+}, {
+  "id": 19,
+  "japanese": "い",
+  "english": "i",
+  "romaji": "I",
+  "category": "Basics"
+}, {
+  "id": 20,
+  "japanese": "る",
+  "english": "ru",
+  "romaji": "ru",
+  "category": "Basics"
+}, {
+  "id": 21,
+  "japanese": "ゆ",
+  "english": "yu",
+  "romaji": "yu",
+  "category": "Basics"
+}, {
+  "id": 22,
+  "japanese": "む",
+  "english": "mu",
+  "romaji": "mu",
+  "category": "Basics"
+}, {
+  "id": 23,
+  "japanese": "ふ",
+  "english": "fu",
+  "romaji": "fu",
+  "category": "Basics"
+}, {
+  "id": 24,
+  "japanese": "ぬ",
+  "english": "nu",
+  "romaji": "nu",
+  "category": "Basics"
+}, {
+  "id": 25,
+  "japanese": "つ",
+  "english": "tsu",
+  "romaji": "tsu",
+  "category": "Basics"
+}, {
+  "id": 26,
+  "japanese": "す",
+  "english": "su",
+  "romaji": "su",
+  "category": "Basics"
+}, {
+  "id": 27,
+  "japanese": "く",
+  "english": "ku",
+  "romaji": "ku",
+  "category": "Basics"
+}, {
+  "id": 28,
+  "japanese": "う",
+  "english": "u",
+  "romaji": "u",
+  "category": "Basics"
+}, {
+  "id": 29,
+  "japanese": "れ",
+  "english": "re",
+  "romaji": "re",
+  "category": "Basics"
+}, {
+  "id": 30,
+  "japanese": "め",
+  "english": "me",
+  "romaji": "me",
+  "category": "Basics"
+}, {
+  "id": 31,
+  "japanese": "へ",
+  "english": "he",
+  "romaji": "he",
+  "category": "Basics"
+}, {
+  "id": 32,
+  "japanese": "ね",
+  "english": "ne",
+  "romaji": "ne",
+  "category": "Basics"
+}, {
+  "id": 33,
+  "japanese": "て",
+  "english": "te",
+  "romaji": "te",
+  "category": "Basics"
+}, {
+  "id": 34,
+  "japanese": "せ",
+  "english": "se",
+  "romaji": "se",
+  "category": "Basics"
+}, {
+  "id": 35,
+  "japanese": "け",
+  "english": "ke",
+  "romaji": "ke",
+  "category": "Basics"
+}, {
+  "id": 36,
+  "japanese": "え",
+  "english": "e",
+  "romaji": "e",
+  "category": "Basics"
+}, {
+  "id": 37,
+  "japanese": "を",
+  "english": "o or wo",
+  "romaji": "o or wo",
+  "category": "Basics"
+}, {
+  "id": 38,
+  "japanese": "ろ",
+  "english": "ro",
+  "romaji": "ro ",
+  "category": "Basics"
+}, {
+  "id": 39,
+  "japanese": "よ",
+  "english": "yo",
+  "romaji": "yo",
+  "category": "Basics"
+}, {
+  "id": 40,
+  "japanese": "も",
+  "english": "mo",
+  "romaji": "mo ",
+  "category": "Basics"
+}, {
+  "id": 41,
+  "japanese": "ほ",
+  "english": "ho",
+  "romaji": "ho",
+  "category": "Basics"
+}, {
+  "id": 42,
+  "japanese": "の",
+  "english": "no",
+  "romaji": "no",
+  "category": "Basics"
+}, {
+  "id": 43,
+  "japanese": "と",
+  "english": "to",
+  "romaji": "to",
+  "category": "Basics"
+}, {
+  "id": 44,
+  "japanese": "そ",
+  "english": "so",
+  "romaji": "so",
+  "category": "Basics"
+}, {
+  "id": 45,
+  "japanese": "こ",
+  "english": "ko",
+  "romaji": "ko",
+  "category": "Basics"
+}, {
+  "id": 46,
+  "japanese": "お",
+  "english": "o",
+  "romaji": "o  ",
+  "category": "Basics"
+}];
